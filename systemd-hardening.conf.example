@@ -1,0 +1,21 @@
+# Review and test as a drop-in for the existing unprivileged DSH/bridge units.
+# Retain their service users, loopback listeners, existing writable paths and
+# credential-file ownership. This is not a full service definition.
+[Service]
+NoNewPrivileges=yes
+ProtectSystem=strict
+ProtectHome=yes
+PrivateTmp=yes
+PrivateDevices=yes
+ProtectKernelTunables=yes
+ProtectKernelModules=yes
+ProtectKernelLogs=yes
+ProtectControlGroups=yes
+RestrictSUIDSGID=yes
+RestrictRealtime=yes
+LockPersonality=yes
+CapabilityBoundingSet=
+AmbientCapabilities=
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6 AF_NETLINK
+TasksMax=256
+# Do not enable MemoryDenyWriteExecute for the Node/V8 JIT.

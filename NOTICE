@@ -1,0 +1,45 @@
+Dafeiyu QQ / 大肥鱼
+Copyright (c) 2026 Dafeiyu QQ contributors.
+
+This standalone, sanitized adaptation contains community-bot integration code
+originally developed in a private new-api-derived project. It is distributed
+under AGPL-3.0-only; see LICENSE. The private application's implementation,
+credentials, deployment configuration, user records and Git history are not
+included. The adaptation changes configuration names, example branding and the
+wire protocol identifier, adds standalone packaging, examples and documentation.
+
+new-api Notices
+
+new-api
+Copyright (c) QuantumNous and contributors.
+
+This project is licensed under the GNU Affero General Public License v3.0.
+See licenses/AGPL-3.0.txt in the source tree or LICENSE alongside this notice in packaged distributions.
+
+==== Additional Terms under AGPLv3 Section 7 ====
+
+Pursuant to Section 7(b) of the GNU Affero General Public License version 3,
+the following reasonable legal notice and author attribution must be preserved
+by modified versions in the Appropriate Legal Notices and in any prominent
+about, legal, footer, or attribution location presented by the user interface:
+
+"Frontend design and development by New API contributors."
+
+Modified versions that present a user interface must also preserve a visible
+link to the original project in a prominent about, legal, footer, or
+attribution location:
+
+https://github.com/QuantumNous/new-api
+
+Modified versions must not misrepresent the origin of the software and must
+mark their changes in accordance with AGPLv3 Section 7(c).
+
+
+Integration targets, installed separately under their own licenses:
+- tencent-connect/dsh-qqbot (MIT)
+- @tencent-connect/qqbot-nodejs (MIT)
+- DeepSeek Harness and its separately installed components
+No affiliation with, endorsement by, or official status from these vendors is
+claimed. Dependency license metadata is recorded in package-lock.json.
+
+This public extraction and its documentation were prepared with AI assistance.

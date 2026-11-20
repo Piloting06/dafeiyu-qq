@@ -1,0 +1,52 @@
+{
+  "name": "dafeiyu-qq",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.ts test/*.test.mjs",
+    "typecheck": "tsc --noEmit",
+    "prepare-source": "node prepare-source.mjs",
+    "build": "tsc -p tsconfig.build.json",
+    "demo": "node examples/demo.ts",
+    "check": "npm run typecheck && npm test && npm run build && npm run check:public",
+    "check:public": "node scripts/check-public.mjs"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "devDependencies": {
+    "@deepseek-ai/cordis": "4.1.0",
+    "@deepseek-ai/dsh-llm": "0.2.2-rc.3",
+    "@tencent-connect/qqbot-nodejs": "1.0.5",
+    "@types/node": "24.0.0",
+    "typescript": "5.8.3"
+  },
+  "description": "Official QQ group bot adapter for DSH: deterministic commands, isolated chat, and guarded community workflows.",
+  "license": "AGPL-3.0-only",
+  "homepage": "https://github.com/Piloting06/dafeiyu-qq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piloting06/dafeiyu-qq.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Piloting06/dafeiyu-qq/issues"
+  },
+  "keywords": [
+    "qqbot",
+    "dsh",
+    "typescript",
+    "chatbot",
+    "community",
+    "security"
+  ],
+  "files": [
+    "dist",
+    "NOTICE",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "./dist/index.d.ts"
+}

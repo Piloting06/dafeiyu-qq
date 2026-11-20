@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "chat_enabled": false,
+  "claim_enabled": false,
+  "checkin_enabled": false,
+  "help_enabled": true,
+  "quiet_enabled": true,
+  "quiet_start": 150,
+  "quiet_end": 420,
+  "allowed_groups": [],
+  "reply_interval_ms": 3000,
+  "group_interval_ms": 5000,
+  "user_cooldown_ms": 15000,
+  "queue_limit": 50
+}
