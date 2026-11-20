@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@deepseek-ai/cordis": "4.1.0",
-    "@deepseek-ai/dsh-llm": "0.2.2-rc.3",
+    "@deepseek-ai/dsh-llm": "0.2.2-rc.4",
     "@tencent-connect/qqbot-nodejs": "1.0.5",
     "@types/node": "24.0.0",
     "typescript": "5.8.3"
